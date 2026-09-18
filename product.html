@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zenith Orders</title>
+  <title>Zenith Collection</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,10 +25,26 @@
   </nav>
 </header>
 
-<main class="section">
-  <div class="overline"><span></span> PURCHASE HISTORY</div>
-  <h2>Buyurtmalarim</h2>
-  <div id="ordersList" class="orders-list"></div>
+<main>
+  <section class="page-header section">
+    <div class="overline"><span></span> LUXURY WATCH STORE</div>
+    <h1>Premium <em>collection</em></h1>
+  </section>
+
+  <section class="section products-layout">
+    <aside class="filters-panel">
+      <h3>Kategoriya</h3>
+      <div id="categoryFilters" class="filter-list"></div>
+    </aside>
+
+    <div class="shop-panel">
+      <div class="search-wrap right-search">
+        <span>⌕</span>
+        <input id="shopSearch" placeholder="Soat qidirish..." aria-label="Products search">
+      </div>
+      <div id="productsGrid" class="grid"></div>
+    </div>
+  </section>
 </main>
 
 <footer>

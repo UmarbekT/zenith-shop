@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zenith Orders</title>
+  <title>Zenith Profile</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,10 +25,16 @@
   </nav>
 </header>
 
-<main class="section">
-  <div class="overline"><span></span> PURCHASE HISTORY</div>
-  <h2>Buyurtmalarim</h2>
-  <div id="ordersList" class="orders-list"></div>
+<main class="section profile-page">
+  <div class="profile-card">
+    <div class="overline"><span></span> MY PROFILE</div>
+    <h2 id="profileName">Foydalanuvchi</h2>
+    <p id="profileEmail" class="muted"></p>
+    <div class="profile-actions">
+      <a href="orders.html" class="btn">Buyurtmalarim</a>
+      <button id="logoutBtn" class="btn btn-secondary" type="button">Chiqish</button>
+    </div>
+  </div>
 </main>
 
 <footer>

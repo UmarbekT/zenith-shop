@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zenith Orders</title>
+  <title>Zenith Cart</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,10 +25,24 @@
   </nav>
 </header>
 
-<main class="section">
-  <div class="overline"><span></span> PURCHASE HISTORY</div>
-  <h2>Buyurtmalarim</h2>
-  <div id="ordersList" class="orders-list"></div>
+<main>
+  <section class="section cart-page">
+    <div class="cart-content">
+      <div class="overline"><span></span> YOUR BAG</div>
+      <h2>Savat</h2>
+      <div id="cartItems"></div>
+    </div>
+
+    <aside class="summary sticky-summary">
+      <div class="summary-icon">◈</div>
+      <h3>Buyurtma xulosasi</h3>
+      <p>Mahsulotlar: <b id="subtotal">0 so'm</b></p>
+      <p>Yetkazib berish: <b id="shipping">150 000 so'm</b></p>
+      <hr>
+      <h3>Jami: <span id="total">0 so'm</span></h3>
+      <button class="btn full-width" id="checkoutBtn" type="button">Buyurtma berish</button>
+    </aside>
+  </section>
 </main>
 
 <footer>
