@@ -1,0 +1,9 @@
+// Mahsulot qo'shish yoki o'zgartirish uchun shu massivdagi ma'lumotlarni tahrirlang.
+const PRODUCTS=[
+{id:1,name:'Zenith Classic Gold',category:'Classic',price:1250000,image:'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=700&q=80',description:'Klassik va nafis dizayndagi kundalik soat.'},
+{id:2,name:'Zenith Sport Pro',category:'Sport',price:1680000,image:'https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=700&q=80',description:'Faol hayot tarzi uchun kuchli va qulay model.'},
+{id:3,name:'Zenith Noir',category:'Minimal',price:940000,image:'https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&w=700&q=80',description:'Minimal ko'rinishdagi qora rangli zamonaviy soat.'},
+{id:4,name:'Zenith Royal',category:'Luxury',price:2300000,image:'https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=700&q=80',description:'Maxsus holatlar uchun premium kolleksiya.'},
+{id:5,name:'Zenith Urban',category:'Casual',price:1090000,image:'https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?auto=format&fit=crop&w=700&q=80',description:'Har kuni taqish uchun yengil va universal soat.'},
+{id:6,name:'Zenith Heritage',category:'Classic',price:1550000,image:'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=700&q=80',description:'An’anaviy uslub va zamonaviy sifat uyg‘unligi.'}
+];
